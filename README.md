@@ -15,7 +15,7 @@
 
 
 <!-- ========= START REPO TITLE ========= -->
-# <p align="center"> 🕸️  [Distributed Systems]()  / [Project RobotFault AI Server for IoT]() - 
+# <p align="center"> 🕸️  [Distributed Systems]()  / [Project RobotFault AI Server for IoT]()  
 ### <p align="center"> Analysis of Algorithmic Bias • Operational Risk • AI Governance Responses in Financial Services 
 
 
