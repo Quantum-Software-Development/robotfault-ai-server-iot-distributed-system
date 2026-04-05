@@ -36,5 +36,53 @@
 **Professor:** [⭐️ **Carlos Eduardo Paes**]()  <br>
 [**Extensionist Activities:**]() Extension projects and workshops using open‑source software and data‑driven consulting to support the community, aligned with the 20 official extension hours of the course.
 
-<br><br><br>
+<br><br>
+
+#
+
+<br><br>
 <!-- ========= END Institucional INFO ========= -->
+
+
+<!-- ========= START BADGES ========= -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-Distributed%20Systems-007ACC?logo=python&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Socket-TCP%2FIP-00A676?logo=socketdotio&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Concurrency-Threads-008B8B" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-Random%20Forest-20B2AA" />
+  <img src="https://img.shields.io/badge/Synchronization-Lock-00CED1" />
+</p>
+
+<br><br>
+
+#
+
+<br><br>
+<!-- ========= END START BADGES ========= -->
+
+
+
+
+<!-- ========= START Confidentiality statement ========= -->
+
+> [!NOTE]
+> 
+> ⚠️ Heads Up
+>
+> * Projects and deliverables may be made [publicly available]() whenever possible.
+>   
+> * The course emphasizes [**practical, hands-on experience**]() with real datasets to simulate professional consulting scenarios in the fields of **Machine Learning and Neural Networks** for partner organizations and institutions affiliated with the university.
+>   
+> * All activities comply with the [**academic and ethical guidelines of PUC-SP**]().
+>   
+> * Any content not authorized for public disclosure will remain [**confidential**]() and securely stored in [private repositories]().  
+> <br>
+>
+>
+
+<br><br> <br><br>
+<!-- ========= END Confidentiality statement  ========= -->
+
+<!-- ======================================= END DEFAULT HEADER ⚡️ ===========================================  -->
+
+
