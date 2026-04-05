@@ -25,7 +25,7 @@
 
 
 <!-- ========= START Institucional INFO ========= -->
-## [Cybersecurity and Social Engineering Integrated Project - PUC-SP 5th Semester (2026)]()
+## [Distributed Systems Integrated Project - PUC-SP 5th Semester (2026)]()
 
 
 <br>
@@ -36,11 +36,7 @@
 **Professor:** [⭐️ **Carlos Eduardo Paes**]()  <br>
 [**Extensionist Activities:**]() Extension projects and workshops using open‑source software and data‑driven consulting to support the community, aligned with the 20 official extension hours of the course.
 
-<br><br>
-
-#
-
-<br><br>
+<br><br><br><br>
 <!-- ========= END Institucional INFO ========= -->
 
 
