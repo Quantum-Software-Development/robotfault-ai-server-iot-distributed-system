@@ -17,6 +17,12 @@ venv/
 # macOS
 .DS_Store
 
-# Data / models (keep only the final .pkl if you want)
+# Logs and temp files
 *.log
 *.tmp
+
+# NOTE:
+# We intentionally do NOT ignore *.pkl in this academic project.
+# The file modelo_falha_rf.pkl can be versioned so the professor
+# can clone the repository and run the server without retraining
+# the model first.
