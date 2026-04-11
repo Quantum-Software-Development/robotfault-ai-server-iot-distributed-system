@@ -185,13 +185,108 @@ Generated artifacts:
 - `modelo_falha_rf.pkl`
 
 
+<br>
+
+### `servidor_central.py`
+
+This server validates the model file before startup, loads it with `pickle`, listens on TCP, receives robot telemetry as JSON and classifies the data through a function that expects `temperatura`, `vibracao` and `rpm`. It returns either `"FALHA"` or `"NORMAL"` and also tracks the global number of alerts.
+
+A strong point of this implementation is its robustness. It handles invalid UTF-8, invalid JSON, missing required fields, numeric conversion errors and internal exceptions, all while protecting the shared counter with `threading.Lock()`.
+
+<br>
+
+### `no_sensor.py`
+
+This is a simulated robot client used for testing. It generates random sensor values periodically, sends them to the server in JSON format and logs the diagnosis returned by the server together with timestamps and the robot identifier.
+
+It also implements reconnection behavior for timeouts, refused connections, connection reset and unexpected failures, which makes it useful for resilience testing during demonstrations.
 
 
+<br><br>
+
+## Stage 2 – `2_Robot_Pedro_Exploratory`
+
+This stage focuses on simplification and architectural clarity. Instead of keeping the first prototype’s heavier end-to-end structure, it isolates the socket communication into a cleaner server–client base that can be extended later with intelligence and synchronization logic.
+
+Its main value is educational and architectural. It turns the project into a more understandable network skeleton, which makes the final integrated version easier to develop, test and explain.
+
+<br><br>
+
+## Stage 3 – `3-ROBOT_FINAL`
+
+This is the final version delivered for the course presentation. It extends the cleaner socket structure with centralized ML inference, robot registration, shared state and a command-based interaction model.
+
+<br>
+
+The final version includes:
+
+- a pre-trained model file;
+- a central threaded server;
+- a client terminal for operational commands;
+- shared robot tracking;
+- support for clean disconnect behavior through a sentinel command.
+
+<br><br>
+
+## System architecture
+
+The final system uses a centralized decision architecture. Robot clients act as distributed nodes that send operational data, while the server acts as the intelligence layer responsible for processing, diagnosis and state coordination. This directly matches the Factory 4.0 motivation in the project.
+
+<br><br>
+
+### Server flow
+
+1. A robot client connects to the TCP server.
+2. The server creates a dedicated thread to handle that connection.
+3. The client may register, request the current robot list, send telemetry or terminate its session.
+4. The server preprocesses the received payload and invokes the Machine Learning model.
+5. The server returns a diagnosis and safely updates shared state whenever needed.
+
+<br><br>
+
+### Architecture diagram
+
+<br>
+
+```mermaid
+flowchart LR
+    C1[Robot Client 1]
+    C2[Robot Client 2]
+    C3[Robot Client 3]
+
+    S[Central TCP Server]
+
+    T1[Thread 1]
+    T2[Thread 2]
+    T3[Thread 3]
+
+    M[ML Model]
+    R[Shared Robot Registry]
+    L[Lock / RLock]
+    D[Diagnosis Response]
+
+    C1 --> S
+    C2 --> S
+    C3 --> S
+
+    S --> T1
+    S --> T2
+    S --> T3
+
+    T1 --> M
+    T2 --> M
+    T3 --> M
+
+    T1 --> R
+    T2 --> R
+    T3 --> R
+
+    R --> L
+    M --> D
+```
 
 
-
-
-
+<br><br>
 
 
 
