@@ -42,12 +42,18 @@
 
 <!-- ========= START BADGES ========= -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-Distributed%20Systems-007ACC?logo=python&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Socket-TCP%2FIP-00A676?logo=socketdotio&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Concurrency-Threads-008B8B" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-Random%20Forest-20B2AA" />
-  <img src="https://img.shields.io/badge/Synchronization-Lock-00CED1" />
+  <img src="https://img.shields.io/badge/Python-Distributed%20Systems-0f766e?logo=python&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Socket-TCP%2FIP-0d9488?logo=socketdotio&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Concurrency-Threads-14b8a6" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-scikit--learn-0ea5a4?logo=scikitlearn&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Synchronization-RLock-115e59" />
+  <img src="https://img.shields.io/badge/Pandas-Shared%20DataFrame-0f766e?logo=pandas&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Joblib-Model%20Loading-0d9488?logo=python&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/IoT-Robot%20Monitoring-14b8a6" />
+  <img src="https://img.shields.io/badge/Industry-4.0-0f766e" />
+  <img src="https://img.shields.io/badge/Predictive-Maintenance-134e4a" />
 </p>
+
 
 <br><br>
 
