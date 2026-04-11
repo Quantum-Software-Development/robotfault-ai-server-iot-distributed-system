@@ -15,8 +15,9 @@
 
 
 <!-- ========= START REPO TITLE ========= -->
-# <p align="center"> 🕸️  [Distributed Systems]()  / [Project RobotFault AI Server for IoT]()  
-### <p align="center"> Analysis of Algorithmic Bias • Operational Risk • AI Governance Responses in Financial Services 
+# <p align="center"> 🕸️  [Distributed Systems]()  / [Project ROBOT Sentinel – Distributed TCP/IP Server with ML for Predictive Diagnostics]()  
+### <p align="center"> Sockets TCP/IP • Multithreading • Manutenção Preditiva • Inferência de IA Centralizada na Indústria 4.0
+
 
 
 
