@@ -13,7 +13,6 @@
 
 
 
-
 <!-- ========= START REPO TITLE ========= -->
 # <p align="center"> 🕸️  [Distributed Systems]()  / [Project ROBOT Sentinel – Distributed TCP/IP Server with ML for Predictive Diagnostics]()  
 ### <p align="center"> Sockets TCP/IP • Multithreading • Manutenção Preditiva • Inferência de IA Centralizada na Indústria 4.0
@@ -43,18 +42,16 @@
 
 <!-- ========= START BADGES ========= -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-Distributed%20Systems-0f766e?logo=python&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Socket-TCP%2FIP-0d9488?logo=socketdotio&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Concurrency-Threads-14b8a6" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-scikit--learn-0ea5a4?logo=scikitlearn&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Synchronization-RLock-115e59" />
-  <img src="https://img.shields.io/badge/Pandas-Shared%20DataFrame-0f766e?logo=pandas&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Joblib-Model%20Loading-0d9488?logo=python&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/IoT-Robot%20Monitoring-14b8a6" />
-  <img src="https://img.shields.io/badge/Industry-4.0-0f766e" />
-  <img src="https://img.shields.io/badge/Predictive-Maintenance-134e4a" />
-</p>
-
+  <img src="https://img.shields.io/badge/Python-Distributed%20Systems-0f766e?style=for-the-badge&logo=python&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Socket-TCP%2FIP-0d9488?style=for-the-badge&logo=socketdotio&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Concurrency-Threads-14b8a6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-scikit--learn-0ea5a4?style=for-the-badge&logo=scikitlearn&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Synchronization-RLock-115e59?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Pandas-Shared%20DataFrame-0f766e?style=for-the-badge&logo=pandas&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Joblib-Model%20Loading-0d9488?style=for-the-badge&logo=python&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/IoT-Robot%20Monitoring-14b8a6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Industry-4.0-0f766e?style=for-the-badge" />
+  <img 
 
 <br><br>
 
